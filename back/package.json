@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "createdb ecommerce",
     "start": "nodemon server.js"
   },
   "repository": {
